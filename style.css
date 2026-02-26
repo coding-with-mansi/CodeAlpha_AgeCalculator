@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
